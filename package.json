@@ -1,0 +1,35 @@
+{
+  "name": "zoho-be-demo",
+  "version": "1.0.0",
+  "description": "Zoho practice backend. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzacsmith/zoho-be-demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "zoho"
+  ],
+  "author": "Mr Zac Smith <zrs3141592@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrzacsmith/zoho-be-demo/issues"
+  },
+  "homepage": "https://github.com/mrzacsmith/zoho-be-demo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0"
+  }
+}
